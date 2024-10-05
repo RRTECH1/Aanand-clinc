@@ -198,6 +198,10 @@ services
 {
     background-color: rgb(211, 204, 204);
 }
+.text-left{
+  font-family: serif;
+  text-align: center;
+}
 .icon i{
  
 	color: #000000;
@@ -209,8 +213,15 @@ services
     border: #000 solid;
     border-radius: 20px;
     background-color: rgb(39, 133, 136);
-   
 }
+.content1{
+  background-color: cadetblue;
+  height: 500px;
+  width: 350px;
+  display: inline-block;
+ 
+ }
+
 .icon-info h4{
 	padding-bottom: 15px;
     color: #000;
@@ -225,6 +236,15 @@ services
 {
     padding-left: 10px;
     color: #000;
+}
+
+.para1{
+  color: black;
+  justify-items: center;
+  display: inline;
+}
+.para2{
+  display: inline;
 }
 
 /***************************************
@@ -270,6 +290,10 @@ about
 #about{
     background-color: rgba(238, 238, 238, 0.15);
     background-color: rgb(211, 204, 204);
+}
+.about{
+  font-family: serif;
+  text-align: center;
 }
 .lg-line{
 	line-height: 1.4;
@@ -423,6 +447,21 @@ contact us
 .space {
     margin-top: 40px;
 }
+.heading h2{
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+}
+.heading h5{
+  color: black;
+  text-align: center;
+}
+.number{
+  color: black;
+}
+.contact{
+  font-family: serif;
+}
 .btn-form, .btn-form:hover, .btn-form:focus {
     background-color: #0cb8b6;
     color: #fff;
@@ -574,4 +613,7 @@ footer
     .banner-text h1{
         font-size: 24px;
     }
+}
+.credits a{
+  color: white;
 }
